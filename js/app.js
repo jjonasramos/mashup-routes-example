@@ -1,7 +1,7 @@
 import * as Controllers from './controllers.js';
 
 const routerConfig = {
-	root : 'null',
+	root : null,
  	useHash : true,
 	hash : '#',
 	rootElement: 'view'
@@ -35,7 +35,7 @@ require( ["js/qlik"], function ( qlik ) {
 		},
 		'/pagina2': async () => {
 			await Controllers.setContent('pagina2', routerConfig.rootElement);
-			Controllers.Pagina01Controller(app);
+			Controllers.Pagina02Controller(app);
 		}
 	}).resolve();
 

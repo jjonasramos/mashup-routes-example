@@ -8,9 +8,9 @@ export const HomeController = async (app) => {
 }
 
 export const Pagina01Controller = async (app) => {
-    app.getObject('QV02', 'qamd');
+    app.getObject('QV02', 'VtfsZDc');
 }
 
 export const Pagina02Controller = async (app) => {
-    app.getObject('QV03', 'qamd');
+    app.getObject('QV03', 'qEqbcMm');
 }
