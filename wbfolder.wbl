@@ -3,6 +3,6 @@ index.html;
 js/app.js;
 css/styles.css;
 pages/home.html;
-pages/page01.html;
-pages/page02.html;
+pages/pagina1.html;
+pages/pagina2.html;
 js/controllers.js
